@@ -1,4 +1,107 @@
+// function autenticarUsuairo(){
+//     let nome = prompt("Digite seu nome")
+//     let senha = prompt("Digite sua senha")
+//     validarUsuario(checarUsusario(nome,senha))
+// }
 
+// function checarUsusario(nome,senha){   
+//     if(nome=="wil" && senha=="123"){
+//         return true
+//     }else{
+//         return false
+//     }
+// }
+
+// function validarUsuario(checagem){
+//     if (checagem==true){
+//         alert("Acessso permitido!Bem vindo, wil")
+//     }else{
+//         alert("Acesso negado! Tente novamente!")
+//     }
+// }
+
+// autenticarUsuairo()
+
+// function capturarTemperatura(){
+//     let temp = Number(prompt("digite a temperatura"))
+//     return temp
+// }
+
+// function converterTemperatura(capturarTemperatura){
+//     return capturarTemperatura*(9/5)+32
+// }
+
+// function exibicao(capturarTemperatura,converterTemperatura){
+//     alert(converterTemperatura(capturarTemperatura()))
+// }
+
+// exibicao(capturarTemperatura,converterTemperatura)
+
+// var texto = prompt("Digite uma palavra")
+
+// const contarVogais = (a) => {
+//     let cont = 0
+//     for(i of a){
+//         switch (i){
+//             case "a":
+//                 cont++
+//                 break
+//             case "e":
+//                 cont++
+//                 break
+//             case "i":
+//                 cont++
+//                 break
+//             case "o":
+//                 cont++
+//                 break
+//             case "u":
+//                 cont++
+//                 break
+//             default:
+//                 break
+//         }
+//     }
+//     return cont
+// }
+
+// alert(contarVogais(texto))
+
+// var numero1 = Number(prompt("Digite o numero"))
+// var numero2 = Number(prompt("Digite o numero"))
+
+// const multiplicar = (a,b) => a * b;
+
+// alert(multiplicar(numero1,numero2))
+
+// var numero1 = Number(prompt("Digite o numero"))
+// var numero2 = Number(prompt("Digite o numero"))
+
+// function resultado(resultado){
+//     switch(resultado){
+//         case true:
+//             console.log("par")
+//             break
+//         case false:
+//             console.log("impar")
+//             break
+//     }
+// }
+
+// function somaNumeros(numero1,numero2, parImpar){
+//     let soma = numero1 + numero2
+//     parImpar(soma)
+// }
+
+// function parImpar(soma,resultado){
+//     if (soma%2 ==0){
+//         resultado(true)
+//     }else{
+//         resultado(false)
+//     }
+// }
+
+// somaNumeros(numero1,numero2)
 
 // var numero = 50
 // var contagem = 0
