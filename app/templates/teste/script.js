@@ -1,3 +1,41 @@
+function adicionarItem(){
+    let lista = document.getElementsByTagName("ul")[0]
+    let item = document.createElement("li")
+    item.innerHTML= document.getElementsByTagName("input")[0].value
+    lista.appendChild(item)
+}
+
+function trocarItem(){
+    let imagem = document.getElementsByTagName("img")[0]
+    imagem.setAttribute("src","/app/templates/images/imagem_1.jpg")
+}
+
+// function valorInput(){
+//     let entrada = document.getElementsByTagName("input")
+//     let paragrafo = document.getElementsByTagName("p")[0]
+//     paragrafo.innerHTML= `${entrada[0].value}`
+// }
+
+// function exibirSaudacoes(){
+//     let entrada = document.getElementsByTagName("input")
+//     // alert(`Olá, ${entrada[0].value}!`)
+
+//     let paragrafo = document.getElementsByTagName("p")[0]
+//     paragrafo.innerHTML= `Olá, ${entrada[0].value}!`
+    
+//     let body = document.getElementsByTagName("body")[0]
+//     body.style = "background-color:grey"
+    
+//     entrada.value=""
+    
+//     entrada.placeholder="Enviado"
+// }
+
+// function valorInput(){
+//     let entrada = document.getElementsByTagName("input")
+//     console.log(`O valor é ${entrada[0].value}!`)
+// }
+
 // function autenticarUsuairo(){
 //     let nome = prompt("Digite seu nome")
 //     let senha = prompt("Digite sua senha")
